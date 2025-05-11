@@ -90,12 +90,21 @@ ul{
 #photo{
     width: 100%;
 }
+#photos{
+    width: 100%;
+}
 #lista{
      display: flex;
      flex-direction: column;
+     align-items: center;
     margin: 20px;
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
 @media(min-width: 768px) and (max-width: 1024px){
@@ -116,5 +125,10 @@ ul{
     margin: 20px;
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 }
