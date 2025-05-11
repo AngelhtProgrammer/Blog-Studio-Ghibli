@@ -1,0 +1,120 @@
+body{
+   display: flex;
+    height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    text-align: center;
+    background-image: url(studio-ghibli-art-1920-x-1080-wallpaper-gxh4816omq07tocl.jpg);
+}
+
+#base{
+    display: flex;
+    height: max-content;
+    width: 75%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.753);
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#imagengibli{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#lista{
+     display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(6, 88, 24, 0.842);
+    color: wheat;
+    padding: 16px;
+    margin: 20px;
+    border-radius: 15px;
+}
+#refe{
+     display: flex;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+@media(max-width: 768px){
+    #base{
+    display: flex;
+    height: max-content;
+    width: 75%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.753);
+}
+#imagengibli{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#photo{
+    width: 100%;
+}
+#lista{
+     display: flex;
+     flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+}
+@media(min-width: 768px) and (max-width: 1024px){
+    #imagengibli{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#photo{
+    width: 100%;
+}
+#lista{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+}
