@@ -23,12 +23,8 @@ const result = () =>
         todo.remove();
         resultados.innerText = `Tu puntaje es de: ${+score}`;
         body.appendChild(resultados);
-        
+
     
-        
-//    alert("Bien hecho! Completaste el quiz y tu puntuacion fue de: "+score);
-  
-  
 
 };
 
