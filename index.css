@@ -29,10 +29,18 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 20px;
-    padding: 8px;
+    padding: 10px;
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
+    font-size: large;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
 }
 #imagengibli{
     display: flex;
@@ -40,6 +48,14 @@ body{
     margin: 20px;
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
+}
+#photo{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#photos{
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
 }
 #lista{
      display: flex;
@@ -96,7 +112,7 @@ ul{
 }
 #triviaText{
     text-decoration: none;
-    font-size: xx-large;
+    font-size: x-large;
     color: black;
     font-style: inherit;
 }
@@ -109,6 +125,7 @@ ul{
 #flecha{
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: rgba(6, 88, 24, 0.842);
     border-radius: 200px;
     padding: 8px;
@@ -134,11 +151,12 @@ ul{
     background: rgba(54, 255, 144, 0.815);
     width: 80%;
 }
-#tituloT{
+.tituloT{
       display: flex;
     justify-content: center;
     width: 300px;
     margin: 20px;
+    padding: 10px;
     border-radius: 20px;
     background: rgba(6, 88, 24, 0.842);
     color:  wheat;
@@ -219,9 +237,14 @@ ul{
 }
 #photo{
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
 }
 #photos{
     width: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
 }
 #lista{
      display: flex;
@@ -237,6 +260,12 @@ ul{
     align-items: center;
 }
 /* TRIVIA */
+#trivia{
+    width: 80%;
+}
+#linkTrivia{
+    width: 80%;
+}
 #respuestas{
     display: flex;
     flex-direction: column;
@@ -245,6 +274,7 @@ ul{
     display: flex;
     justify-content: center;
     width: 100%;
+    padding-bottom: 20px;
 }
 
 
@@ -259,6 +289,14 @@ ul{
 }
 #photo{
     width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+#photos{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
 }
 #lista{
      display: flex;
