@@ -7,7 +7,7 @@ body{
     background-image: url(studio-ghibli-art-1920-x-1080-wallpaper-gxh4816omq07tocl.jpg);
 }
 
-#base{
+.base{
     display: flex;
     height: max-content;
     width: 75%;
@@ -70,6 +70,133 @@ ul{
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
 }
+#trivia{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+    width: 80%;
+    height: 60px;
+    background: rgba(54, 255, 144, 0.815);
+    transition: 0.3s;
+}
+#trivia:hover{
+    border-color: chartreuse;
+}
+#linkTrivia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    text-decoration: none;
+}
+#triviaText{
+    text-decoration: none;
+    font-size: xx-large;
+    color: black;
+    font-style: inherit;
+}
+/* TRIVIA */
+#float{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+#flecha{
+    display: flex;
+    align-items: center;
+    background-color: rgba(6, 88, 24, 0.842);
+    border-radius: 200px;
+    padding: 8px;
+    height: 40px;
+    text-decoration: none;
+    color: wheat;
+    font-size: smaller;
+}
+#centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.preguntas{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+    width: 80%;
+}
+#tituloT{
+      display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+}
+#respuestas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+
+}
+  /* .opcion{
+      display: flex;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+    transition: 0.3s;
+    cursor: pointer;
+ } */
+ /* .opcion:hover{
+    transform: translateY(-10px);
+    background: rgba(10, 121, 34, 0.842);
+ }     */
+ #validacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+    cursor: pointer; 
+    font-size: larger;
+}  
+#resultadosT{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+    font-size: xx-large;
+}
+
 @media(max-width: 768px){
     #base{
     display: flex;
@@ -79,6 +206,9 @@ ul{
     text-align: center;
     align-items: center;
     background: rgba(90, 85, 80, 0.753);
+}
+.titulo{
+    width: 75%;
 }
 #imagengibli{
     display: flex;
@@ -106,6 +236,18 @@ ul{
     flex-direction: column;
     align-items: center;
 }
+/* TRIVIA */
+#respuestas{
+    display: flex;
+    flex-direction: column;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
 }
 @media(min-width: 768px) and (max-width: 1024px){
     #imagengibli{
