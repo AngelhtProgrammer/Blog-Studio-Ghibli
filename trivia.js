@@ -42,7 +42,7 @@ const result = () =>
         body.appendChild(resultados);
 	   }
        if ( +score == 3) {
-		resultados.innerText = `${+score}/6 Meh 👍`;
+		resultados.innerText = `${+score}/6 Meh 😑`;
         body.appendChild(resultados);
 	   }
        if ( +score == 4) {
