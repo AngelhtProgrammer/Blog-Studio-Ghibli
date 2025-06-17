@@ -7,7 +7,7 @@ body{
     background-image: url(studio-ghibli-art-1920-x-1080-wallpaper-gxh4816omq07tocl.jpg);
 }
 
-.base{
+#base{
     display: flex;
     height: max-content;
     width: 75%;
@@ -15,6 +15,26 @@ body{
     text-align: center;
     align-items: center;
     background: rgba(90, 85, 80, 0.753);
+}
+#float2{
+    position: fixed;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    font-size: xx-large;
+}
+#flecha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(6, 88, 24, 0.842);
+    border-radius: 200px;
+    padding: 8px;
+    padding-top: 15px;
+    height: 40px;
+    text-decoration: none;
+    color: wheat;
+    font-size: smaller;
 }
 .titulo{
     display: flex;
@@ -117,7 +137,7 @@ ul{
     font-style: inherit;
 }
 /* TRIVIA */
-#float{
+/* #float{
     position: fixed;
     top: 20px;
     left: 20px;
@@ -135,6 +155,15 @@ ul{
     font-size: smaller;
 }
 #centro{
+    display: flex;
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.363);
+}
+#centroR{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -172,7 +201,7 @@ ul{
     width: 50%;
     gap: 20px;
 
-}
+} */
   /* .opcion{
       display: flex;
     justify-content: center;
@@ -188,7 +217,7 @@ ul{
     transform: translateY(-10px);
     background: rgba(10, 121, 34, 0.842);
  }     */
- #validacion{
+ /* #validacion{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -213,7 +242,7 @@ ul{
     background: rgba(6, 88, 24, 0.842);
     color:  wheat;
     font-size: xx-large;
-}
+} */
 
 @media(max-width: 768px){
     #base{

@@ -1,6 +1,8 @@
 const body = document.querySelector('body')
 const todo = document.getElementById('centro');
+const todo2 = document.getElementById('centroR');
 const flecha = document.getElementById('flecha');
+const flecha2 = document.getElementById('flecha2');
 const resultados = document.createElement('div');
 resultados.setAttribute('id','resultadosT');
 const result = () =>
@@ -25,6 +27,8 @@ const result = () =>
 		{	score++;
 		}
         todo.remove();
+		flecha2.remove();
+		flecha.setAttribute('href','trivia-index.html');
        if ( +score == 0) {
 		resultados.innerText = `${+score}/6 Mediocre 💀`;
         body.appendChild(resultados);

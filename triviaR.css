@@ -1,4 +1,241 @@
 body{
     display: flex;
     flex-wrap: wrap;
+    height: 100vh;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    background-image: url(studio-ghibli-art-1920-x-1080-wallpaper-gxh4816omq07tocl.jpg);
+}
+#float{
+    position: fixed;
+    top: 20px;
+    left: 20px;
+}
+#flecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(6, 88, 24, 0.842);
+    border-radius: 200px;
+    padding: 8px;
+    height: 40px;
+    text-decoration: none;
+    color: wheat;
+}
+#float2{
+    position: fixed;
+    align-items: center;
+    bottom: 20px;
+    right: 20px;
+    font-size: xx-large;
+}
+#flecha2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(6, 88, 24, 0.842);
+    border-radius: 200px;
+    padding: 8px;
+    padding-top: 15px;
+    height: 40px;
+    text-decoration: none;
+    color: wheat;
+    font-size: smaller;
+}
+#base{
+    display: flex;
+    height: max-content;
+    width: 75%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.753);
+}
+#centro{
+    display: flex;
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+#centroR{
+    display: flex;
+    height: max-content;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.363)
+}
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+}
+.preguntas{
+     display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+    width: 80%;
+}
+.tituloT{
+      display: flex;
+    justify-content: center;
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+}
+#respuestas{
+    display: flex;
+    justify-content: space-evenly;
+    width: 95%;
+}
+.opciones{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 20px;
+}
+#validacion{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+    margin: 20px;
+    padding: 8px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+    cursor: pointer; 
+    font-size: larger;
+}  
+#resultadosT{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50%;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(6, 88, 24, 0.842);
+    color:  wheat;
+    font-size: xx-large;
+}
+@media(max-width: 768px){
+    #base{
+    display: flex;
+    height: max-content;
+    width: 75%;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background: rgba(90, 85, 80, 0.753);
+}
+.titulo{
+    width: 75%;
+}
+#imagengibli{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#photo{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+#photos{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+}
+#lista{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* TRIVIA */
+#trivia{
+    width: 80%;
+}
+#linkTrivia{
+    width: 80%;
+}
+.preguntas{
+    width: 70%;
+}
+#respuestas{
+    display: flex;
+    flex-direction: column;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+}
+.tituloT{
+    width: 75%;
+}
+
+
+}
+@media(min-width: 768px) and (max-width: 1024px){
+    #imagengibli{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+#photo{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+}
+#photos{
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 0px;
+}
+#lista{
+     display: flex;
+     flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 20px;
+    background: rgba(54, 255, 144, 0.815);
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 }
