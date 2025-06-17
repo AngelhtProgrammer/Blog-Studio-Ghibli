@@ -266,6 +266,9 @@ ul{
 #linkTrivia{
     width: 80%;
 }
+.preguntas{
+    width: 70%;
+}
 #respuestas{
     display: flex;
     flex-direction: column;
