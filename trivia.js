@@ -30,15 +30,15 @@ const result = () =>
 		flecha2.remove();
 		flecha.setAttribute('href','trivia-index.html');
        if ( +score == 0) {
-		resultados.innerText = `${+score}/6 Mediocre 💀`;
+		resultados.innerText = `${+score}/6 Revisa el blog y vuelve a intentarlo 💔`;
         body.appendChild(resultados);
 	   }
        if ( +score == 1) {
-		resultados.innerText = `${+score}/6 decepcionante 💩`;
+		resultados.innerText = `${+score}/6 Qué mal, intenta otra vez 🔀`;
         body.appendChild(resultados);
 	   }
        if ( +score == 2) {
-		resultados.innerText = `${+score}/6 Qué malo 🤷‍♂️`;
+		resultados.innerText = `${+score}/6 Qué mal, pero buen intento 🤷‍♂️`;
         body.appendChild(resultados);
 	   }
        if ( +score == 3) {
@@ -46,7 +46,7 @@ const result = () =>
         body.appendChild(resultados);
 	   }
        if ( +score == 4) {
- 		resultados.innerText = `${+score}/6 Bueno 😁`;
+ 		resultados.innerText = `${+score}/6 Decente 😁`;
         body.appendChild(resultados);
 	   }
        if ( +score == 5) {

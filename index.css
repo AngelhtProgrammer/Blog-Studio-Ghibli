@@ -4,7 +4,7 @@ body{
     margin: 0px;
     justify-content: center;
     text-align: center;
-    background-image: url(studio-ghibli-art-1920-x-1080-wallpaper-gxh4816omq07tocl.jpg);
+    background-image: url(imagenes/studio-ghibli-fondo.jpg);
 }
 
 #base{
@@ -102,9 +102,12 @@ ul{
 #refe{
      display: flex;
     margin: 20px;
-    padding: 8px;
+    padding: 15px;
     border-radius: 20px;
     background: rgba(54, 255, 144, 0.815);
+}
+#refeP{
+    text-decoration: none;
 }
 #trivia{
      display: flex;

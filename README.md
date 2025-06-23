@@ -1,37 +1,36 @@
-# Foobar
+# Blog Studio Ghibli.
 
-Foobar is a Python library for dealing with word pluralization.
+This is a blog focused on Studio Ghibli that contains brief information about it, and contains a small trivia quiz that can be answered with the information found on the blog.
+![alt text](imagenes/CP blog.png)
+![alt text](imagenes/CP trivia.png)
 
-## Installation
+## Trivia quiz.
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+To do the trivia go to the bottom of the blog where you will find a button with the word “TRIVIA” on it and click on it.
+There are six questions and at the end depending on the result you will get a different message on the screen.
 
-```bash
-pip install foobar
-```
+![alt text](imagenes/CP boton.png)
 
-## Usage
+## Files
+
+index.html: The main HTML file containing the structure of the blog.
+
+index.css: The CSS file containing the style of the blog (index.html).
+
+trivia-index.html: The html file containing the trivia structure.
+
+triviaR.css: The CSS file containing the trivia styling (trivia-index.html).
+
+trivia.js: The JavaScript file containing the application logic, including functions to add up the points and depending on the score paint a different message.
+
+## Sum of points.
+
+Here's how the trivia points add up.
 
 ```python
-import foobar
-
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+let score=0;
+	if(document.getElementById('correcta1').checked)
+		{	score++;
+		}
 ```
 
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)

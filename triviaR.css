@@ -131,6 +131,7 @@ body{
     width: 300px;
     height: 50%;
     margin: 20px;
+    padding: 20px;
     border-radius: 20px;
     background: rgba(6, 88, 24, 0.842);
     color:  wheat;
