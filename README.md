@@ -13,15 +13,15 @@ There are six questions and at the end depending on the result you will get a di
 
 ## Files
 
-index.html: The main HTML file containing the structure of the blog.
+- `index.html`: The main HTML file containing the structure of the blog.
 
-index.css: The CSS file containing the style of the blog (index.html).
+- `index.css`: The CSS file containing the style of the blog (index.html).
 
-trivia-index.html: The html file containing the trivia structure.
+- `trivia-index.html`: The html file containing the trivia structure.
 
-triviaR.css: The CSS file containing the trivia styling (trivia-index.html).
+- `triviaR.css`: The CSS file containing the trivia styling (trivia-index.html).
 
-trivia.js: The JavaScript file containing the application logic, including functions to add up the points and depending on the score paint a different message.
+- `trivia.js`: The JavaScript file containing the application logic, including functions to add up the points and depending on the score paint a different message.
 
 ## Sum of points.
 
