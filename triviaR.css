@@ -146,8 +146,6 @@ body{
     padding: 8px;
     margin: 20px;
     border-radius: 15px;
-    position: relative;
-    left: 330px;
 }
 @media(max-width: 768px){
     #base{
@@ -216,7 +214,9 @@ ul{
 .tituloT{
     width: 75%;
 }
-
+#validacion{
+    width: 90%;
+}
 
 }
 @media(min-width: 768px) and (max-width: 1024px){
