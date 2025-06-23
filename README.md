@@ -1,15 +1,23 @@
 # Blog Studio Ghibli.
 
 This is a blog focused on Studio Ghibli that contains brief information about it, and contains a small trivia quiz that can be answered with the information found on the blog.
-![alt text](imagenes/CP blog.png)
-![alt text](imagenes/CP trivia.png)
+<div align="center">
+<img src="imagenes/CP blog.png" width="800">
+</div>
+<div align="center">
+<img src="imagenes/CP trivia.png" width="800">
+</div>
 
 ## Trivia quiz.
 
 To do the trivia go to the bottom of the blog where you will find a button with the word “TRIVIA” on it and click on it.
 There are six questions and at the end depending on the result you will get a different message on the screen.
 
-![alt text](imagenes/CP boton.png)
+***
+
+<div align="center">
+<img src="imagenes/CP boton.png" width="800">
+</div>
 
 ## Files
 
